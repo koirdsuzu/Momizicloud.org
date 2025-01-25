@@ -1,0 +1,77 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+header {
+  background: #005f73;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.main-visual {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.main-visual img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.link-list {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.link-list h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.link-list ul {
+  list-style: none;
+}
+
+.link-list li {
+  margin: 0.5rem 0;
+}
+
+.link-list a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-list a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #e5e5e5;
+  color: #555;
+  font-size: 0.9rem;
+}
